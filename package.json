@@ -1,0 +1,31 @@
+{
+  "name": "@k0102575/github-package-practice",
+  "version": "0.0.2",
+  "description": "[Practice] React Component Github Package 배포 스터디",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k0102575/github-package-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "8.3.3",
+    "@types/react": "17.0.38",
+    "react": "17.0.2",
+    "rollup": "^2.60.0",
+    "rollup-plugin-dts": "^4.0.1",
+    "tslib": "^2.4.0",
+    "typescript": "4.5.4"
+  }
+}
